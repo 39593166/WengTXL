@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WengTXL</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">WKCQ</string>
+    <string name="title_activity_welcom">WelcomActivity</string>
+    <string name="title_activity_update_personal_info">UpdatePersonalInfoActivity</string>
+    <string name="title_activity_connector_view">ConnectorView</string>
+    <string name="title_activity_connector">ConnectorActivity</string>
+</resources>
