@@ -1,7 +1,6 @@
 package com.wenkang.wengtxl;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -88,9 +87,9 @@ public class ConnectorActivity extends BaseActivity implements ConnectorView {
 
     @Override
     public void goCheckPersonal(UserEntity userEntity) {
-        Intent intentPhone = new Intent(Intent.ACTION_CALL,
-                Uri.parse("tel:" + userEntity.getPhoneNum()));
-        startActivity(intentPhone);
+        Intent intent = new Intent(this,CheckPersonalActivity.class);
+        intent.putExtra("user",userEntity);
+        startActivity(intent);
     }
 
     @Override

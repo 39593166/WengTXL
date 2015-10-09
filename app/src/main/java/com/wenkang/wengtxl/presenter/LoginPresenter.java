@@ -50,6 +50,8 @@ public class LoginPresenter extends BasePresenter {
                                 user = getBean(getResponseValue(response).toString(), UserEntity.class);
                                 if (user != null) {
                                     view.loginSuc();
+                                }else{
+                                    view.errorMsg(statu.getMsg());
                                 }
                             }
                         } catch (JSONException e) {
@@ -57,7 +59,6 @@ public class LoginPresenter extends BasePresenter {
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-
                     }
                 });
     }

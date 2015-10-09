@@ -12,6 +12,8 @@ import android.widget.LinearLayout;
 
 import com.wenkang.wengtxl.R;
 
+import tool.device.ToastUtil;
+
 
 /**
  * Created by Lenovo on 2015/8/24.
@@ -99,6 +101,11 @@ public class BaseActivity extends AppCompatActivity implements BaseView {
             }
         });
         builder.show();
+    }
+
+    @Override
+    public void errorMsg(String errorMsg) {
+      ToastUtil.showGenericToast(this, errorMsg);
     }
 
 

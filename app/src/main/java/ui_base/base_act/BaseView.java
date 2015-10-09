@@ -7,6 +7,7 @@ public interface BaseView {
     public void showDialog(String title, String message,
                            final DialogWorkCallback callback);
 
+    public void errorMsg(String errorMsg);
 
     public void showProgressDialog(String title);
 

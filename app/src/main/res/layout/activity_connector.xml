@@ -20,7 +20,8 @@
             <noscroll.NoScrollListView
                 android:id="@+id/connector_users"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:overScrollMode="never" />
 
             <View
                 android:layout_width="match_parent"
@@ -31,7 +32,8 @@
                 android:id="@+id/connector_departments"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dimen_16" />
+                android:layout_marginTop="@dimen/dimen_16"
+                android:overScrollMode="never" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
