@@ -8,4 +8,5 @@
     <string name="title_activity_update_personal_info">UpdatePersonalInfoActivity</string>
     <string name="title_activity_connector_view">ConnectorView</string>
     <string name="title_activity_connector">ConnectorActivity</string>
+    <string name="title_activity_update_pd">修改密码</string>
 </resources>

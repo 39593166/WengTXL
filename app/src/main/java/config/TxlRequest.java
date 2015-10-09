@@ -20,7 +20,7 @@ public class TxlRequest implements Request, Serializable {
     private ApiInfo apiInfo;
     private HashMap<String, Object> requestParams;
 
-    public TxlRequest(int actionCode,int actionVersion) {
+    public TxlRequest(int actionCode,String actionVersion) {
         this.apiInfo = new ApiInfo(actionCode,actionVersion);
     }
 

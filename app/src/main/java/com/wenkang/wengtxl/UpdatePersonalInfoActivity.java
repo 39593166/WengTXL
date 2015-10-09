@@ -28,7 +28,7 @@ public class UpdatePersonalInfoActivity extends BaseActivity implements UpdatePe
     private Button updateSubmit;
 
     private void findViews() {
-        initToolbar("Update PhoneNum");
+        initToolbar("修改电话号码");
         editphone = (EditText) findViewById(R.id.editphone);
         updateSubmit = (Button) findViewById(R.id.updateSubmit);
 

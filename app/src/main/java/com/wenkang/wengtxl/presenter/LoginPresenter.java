@@ -47,7 +47,7 @@ public class LoginPresenter extends BasePresenter {
                         try {
                             ResponseStatu statu = getResponseStatu(response);
                             if (statu.getState() == 1) {
-                                user = getBean(getResponseValue(response).getJSONObject("user").toString(), UserEntity.class);
+                                user = getBean(getResponseValue(response).toString(), UserEntity.class);
                                 if (user != null) {
                                     view.loginSuc();
                                 }

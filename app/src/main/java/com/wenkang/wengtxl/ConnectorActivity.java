@@ -34,7 +34,7 @@ public class ConnectorActivity extends BaseActivity implements ConnectorView {
     }
 
     private void initActivity() {
-        initToolbar(departmentName == null || departmentName.equals("") ? "Company-Group" : departmentName);
+        initToolbar(departmentName == null || departmentName.equals("") ? "组织架构" : departmentName);
         presenter = new ConnectorPresenter(this, this);
         departmentId = getIntent().getIntExtra("dId", 0);
         departmentName = getIntent().getStringExtra("dName");

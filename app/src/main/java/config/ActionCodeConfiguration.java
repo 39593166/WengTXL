@@ -9,7 +9,7 @@ public class ActionCodeConfiguration {
 	/**
 	 * 添加用户【换到后台做】
 	 */
-	public static final int ADD_USER = 2;
+	public static final int ADD_USER = 4;
 	/**
 	 * 修改个人信息
 	 */
@@ -17,5 +17,5 @@ public class ActionCodeConfiguration {
 	/**
 	 * 获取通讯录
 	 */
-	public static final int GET_DEPARTMENTCHILD = 4;
+	public static final int GET_DEPARTMENTCHILD = 2;
 }

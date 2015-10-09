@@ -13,14 +13,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name:"
-            android:textSize="18sp" />
+            android:text="姓名:"
+            android:textSize="18sp"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/item_u_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center_vertical"
             android:layout_gravity="center_horizontal"
+            android:drawableLeft="@mipmap/head"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text="xxxxxxxxxxxxxx"
             android:textSize="18sp" />
     </LinearLayout>
 

@@ -8,13 +8,15 @@ import java.io.Serializable;
 public class ApiInfo implements Serializable {
     private static final long serialVersionUID = 6919617389581991991L;
     private int actionCode;
-    private int osVersion;
-    private int appVersion;
-    private int actionVersion;
+    private String osVersion;
+    private String appVersion;
+    private String actionVersion;
 
-    public ApiInfo(int actionCode,int actionVersion) {
+    public ApiInfo(int actionCode,String actionVersion) {
         this.actionCode = actionCode;
         this.actionVersion = actionVersion;
+        this.osVersion="22";
+        this.appVersion="1";
     }
 
     public int getActionCode() {
@@ -25,27 +27,27 @@ public class ApiInfo implements Serializable {
         this.actionCode = actionCode;
     }
 
-    public int getOsVersion() {
+    public String getOsVersion() {
         return osVersion;
     }
 
-    public void setOsVersion(int osVersion) {
+    public void setOsVersion(String osVersion) {
         this.osVersion = osVersion;
     }
 
-    public int getAppVersion() {
+    public String getAppVersion() {
         return appVersion;
     }
 
-    public void setAppVersion(int appVersion) {
+    public void setAppVersion(String appVersion) {
         this.appVersion = appVersion;
     }
 
-    public int getActionVersion() {
+    public String getActionVersion() {
         return actionVersion;
     }
 
-    public void setActionVersion(int actionVersion) {
+    public void setActionVersion(String actionVersion) {
         this.actionVersion = actionVersion;
     }
 }

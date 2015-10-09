@@ -4,10 +4,6 @@
     android:background="@android:color/white"
     android:gravity="center_horizontal"
     android:orientation="vertical">
-
-    <!-- Login progress -->
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +23,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
-                android:id="@+id/mainpage_name"
+                android:id="@+id/checkpersonal_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -52,7 +48,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
-                android:id="@+id/mainpage_employeeNum"
+                android:id="@+id/checkpersonal_employeeNum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -77,7 +73,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
-                android:id="@+id/mainpage_job"
+                android:id="@+id/checkpersonal_job"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -102,7 +98,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
-                android:id="@+id/mainpage_tel"
+                android:id="@+id/checkpersonal_tel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableRight="@mipmap/arrow_gray"
@@ -118,13 +114,13 @@
             android:background="@android:color/holo_green_dark" />
 
         <Button
-            android:id="@+id/mainpage_company"
+            android:id="@+id/checkpersonal_company"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@null"
             android:drawableRight="@mipmap/arrow_gray"
-            android:text="组织架构"
+            android:text="拨号"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <View

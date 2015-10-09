@@ -33,7 +33,7 @@ public class LoginActivity extends BaseActivity implements LoginView, View.OnCli
 
 
     private void findViews() {
-        initToolbar("Login");
+        initToolbar("登录");
         loginUserName = (EditText) findViewById(R.id.login_userName);
         loginPassword = (EditText) findViewById(R.id.login_password);
         loginSubmit = (Button) findViewById(R.id.login_submit);

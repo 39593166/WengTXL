@@ -30,7 +30,7 @@ public class UpdatePersonalPresenter extends BasePresenter {
     }
 
     public void updatePhoneNum() {
-        view.showProgressDialog("正在登陆，请稍后...");
+        view.showProgressDialog("正在修改，请等待...");
 
         UserEntity userEntity = app.getUser();
         userEntity.setPhoneNum(view.getNewPhoneNum());

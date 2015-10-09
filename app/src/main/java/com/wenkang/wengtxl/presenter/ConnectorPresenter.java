@@ -39,7 +39,7 @@ public class ConnectorPresenter extends BasePresenter {
      * @param departmentId
      */
     public void getDepartmentChild(int departmentId) {
-        view.showProgressDialog("LOADING...");
+        view.showProgressDialog("正在加载...");
         NetServer.apply(Apis.getDepartmentChild(departmentId), new
                 ApplyCallback() {
                     @Override

@@ -14,11 +14,6 @@
         android:orientation="vertical"
         android:padding="@dimen/dimen_16">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="新号码:"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <View
             android:layout_width="match_parent"
@@ -27,12 +22,24 @@
             android:background="@android:color/holo_green_dark" />
 
         <EditText
-            android:id="@+id/editphone"
+            android:id="@+id/editpd1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
-            android:inputType="phone"
+            android:hint="请输入新的密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/dimen_24" />
+
+
+        <EditText
+            android:id="@+id/editpd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请再次输入新的密码"
+            android:inputType="textPassword"
             android:padding="@dimen/dimen_24" />
 
         <View
@@ -43,10 +50,10 @@
 
 
     <Button
-        android:id="@+id/updateSubmit"
+        android:id="@+id/updatePdSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@null"
-        android:text="Submmit" />
+        android:text="修改" />
 </LinearLayout>

@@ -1282,5 +1282,9 @@
     <dimen name="dimen_1278">1278px</dimen>
     <dimen name="dimen_1279">1279px</dimen>
     <dimen name="dimen_1280">1280px</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>
